@@ -26,6 +26,7 @@ h3 {
   font-size: 20px;
   padding-top: 20px;
 }
+
 h4 {
   font-size: 20px;
   line-height: 40px;
@@ -50,7 +51,133 @@ a {
   text-decoration: none;
   font-weight: 100;
 }
+/*Navbar*/
+.navbar {
+  height: 70px;
+  border: none;
+  background: var(--primary-color);
+  z-index: 100;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: 40px !important;
+}
 
+.navigations-links a {
+  margin: 10px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.nav-link {
+  color: var(--secondary-color) !important;
+}
+
+.navigations-links a:hover {
+  color: white;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nav-awesom {
+  margin: 0 30px;
+}
+
+.icon {
+  padding-left: 10px;
+
+  box-shadow: var(--secondary-color);
+  display: inline;
+}
+
+.icon:hover {
+  background-color: var(--primary-color);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-collapse {
+  background: var(--primary-color);
+  margin: 10px;
+}
+
+.logo {
+  max-width: 120px;
+}
+
+.button-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.navigations-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  column-gap: 10%;
+}
+
+.contact-link {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  box-shadow: 0 5px 10px rgba(114, 111, 111, 0.2);
+}
+
+.contact-link a {
+  margin: 30px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about-link {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.home-button {
+  display: block;
+  margin: 0 auto;
+  color: var(--primary-color);
+}
+
+.home-button:hover {
+  background-color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+  text-transform: none;
+}
+
+/*Body*/
 .container-hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/night.jpg");
@@ -99,26 +226,27 @@ a {
   padding-top: 40px;
   padding-bottom: 30px;
 }
+
 .leftside,
 .rightside {
   height: 60vh;
   width: 100%;
   margin-left: 10px;
-  padding-left: 30px;
-  padding-left: 10px;
+  padding-left: 40px;
 }
 
 .container {
   display: flex;
   justify-content: space-evenly;
 }
+
 .grid-container {
   display: flex;
   justify-content: space-between;
 }
 
 .featuring-section {
-  background: salmon;
+  background: var(--primary-color);
   color: var(--secondary-color);
   max-width: 100%;
   padding-bottom: 30px;
@@ -410,3 +538,111 @@ img {
   margin: 0 auto;
 }
 */
+
+footer {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url("../images/software.jpg");
+  background-size: cover;
+}
+footer .footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50 50px 50px 50px;
+  grid-gap: 20px;
+}
+
+footer .box {
+  color: var(--secondary-color);
+  font-size: 30px;
+  text-align: center;
+  background: rgba(31, 19, 51, 0.4);
+}
+
+footer ul {
+  font-size: 20px;
+}
+
+footer li {
+  list-style: none;
+  text-align: left;
+  font-size: 15px;
+}
+
+.aboutme-footer {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.about-parag {
+  font-size: 15px;
+  font-weight: 200;
+  text-align: left;
+  padding: 0 18px 0 18px;
+  line-height: 30px;
+}
+
+.services-list {
+  font-weight: 200;
+  line-height: 40px;
+}
+
+.resources-ul {
+  line-height: 40px;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 16px;
+  font-weight: 200;
+}
+
+a:hover {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.text-item {
+  text-align: center;
+}
+
+.photo-grid-about {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.shecodes-logo {
+  max-width: 130px;
+  padding-top: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.open-source:hover {
+  color: white;
+}
+
+.resources-ul {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 15px;
+}
+
+/**
+.work {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+
+.work-3 {
+  font-size: 25px;
+  font-weight: 400;
+}
+**/
