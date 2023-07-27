@@ -186,8 +186,8 @@ a {
   text-align: center;
   max-width: 1400px;
   background-size: cover;
-  margin-top: 30px;
-  padding-bottom: 30px;
+  margin-top: 60px;
+  padding-top: 40px;
 }
 
 .btn-branding {
@@ -275,7 +275,7 @@ a {
   position: relative;
   margin-top: 60px;
   margin-left: 90px;
-  padding-top: 120px;
+  padding-top: 130px;
   padding-bottom: 10px;
   width: 200px;
   height: 200px;
