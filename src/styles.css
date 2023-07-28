@@ -233,7 +233,7 @@ div.buttons-top {
   margin-left: 20px;
 }
 .project-btn:hover {
-  background-color: var(--primary-color);
+  background-color: transparent;
   border: 1px solid var(--secondary-color);
   color: var(--secondary-color);
   font-weight: 300;
@@ -282,7 +282,7 @@ div.buttons-top {
   position: relative;
   margin-top: 60px;
   margin-left: 90px;
-  padding-top: 100px;
+  padding-top: 90px;
   padding-bottom: 10px;
   width: 200px;
   height: 200px;
@@ -291,8 +291,8 @@ div.buttons-top {
 }
 
 .face {
-  width: 80px;
-  height: 80px;
+  width: 110px;
+  height: 110px;
   background: var(--primary-color);
   border: 2px solid var(--secondary-color);
   position: absolute;
