@@ -6,36 +6,43 @@
   --secondary-color: #ead6b6;
   --box-shadow: 0 5px 10px rgba(114, 111, 111, 0.2);
 }
+
 body {
   font-family: "poppins", sans-serif;
   background-color: var(--primary-color);
 }
+
 h1 {
   font-size: 70px;
   line-height: 30px;
   font-weight: 450;
   padding-bottom: 40px;
 }
+
 h3 {
   font-size: 20px;
   padding-top: 20px;
   font-weight: 300;
 }
+
 h4 {
   font-size: 20px;
   line-height: 40px;
   padding-top: 20px;
   font-weight: 300;
 }
+
 h5 {
   font-size: 20px;
   padding: 20px 0;
 }
+
 p {
   margin: 0px;
   font-size: 20px;
   padding-bottom: 30px;
 }
+
 a {
   color: rgb(126, 0, 255);
   font-size: 20px;
@@ -53,6 +60,7 @@ a {
   padding-bottom: 0 !important;
   min-height: 40px !important;
 }
+
 .navigations-links a {
   margin: 10px;
   border-radius: 4px;
@@ -60,9 +68,15 @@ a {
   text-decoration: none;
   text-transform: capitalize;
 }
+
 .nav-link {
   color: var(--secondary-color) !important;
 }
+
+.nav-link:hover {
+  background: #2f2048;
+}
+
 .navigations-links a:hover {
   color: white;
 }
@@ -72,49 +86,60 @@ li.nav-item {
   display: flex;
   justify-content: space-evenly;
 }
+
 .nav-link:hover {
   text-decoration: none;
   padding-top: 10px;
   margin-bottom: 10px;
 }
+
 .nav-awesom {
   margin-left: auto;
 }
+
 .icon {
   padding-left: 10px;
   box-shadow: var(--secondary-color);
   display: inline;
 }
+
 .icon:hover {
-  background-color: var(--primary-color);
+  background: #2f2048;
 }
+
 .navbar-brand {
   display: flex;
   align-items: center;
 }
+
 .navbar-collapse {
   background: var(--primary-color);
   margin: 50px;
   justify-content: space-around;
 }
+
 .logo {
   max-width: 120px;
 }
+
 .button-link {
   text-decoration: none;
   color: var(--primary-color);
 }
+
 .navigations-links {
   display: flex;
   justify-content: center;
   margin-top: 40px;
   column-gap: 10%;
 }
+
 .contact-link {
   background: var(--secondary-color);
   color: var(--primary-color);
   box-shadow: 0 5px 10px rgba(114, 111, 111, 0.2);
 }
+
 .contact-link a {
   margin: 30px;
   border-radius: 4px;
@@ -128,22 +153,26 @@ li.nav-item {
   border: 1px solid var(--secondary-color);
   color: var(--secondary-color);
 }
+
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
   display: block;
 }
+
 .home-button {
   display: block;
   margin: 0 auto;
   color: var(--primary-color);
 }
+
 .home-button:hover {
   background-color: var(--primary-color);
   border: 1px solid var(--secondary-color);
   color: var(--secondary-color);
   text-decoration: none;
 }
+
 .email-link {
   display: flex;
   justify-content: center;
@@ -151,6 +180,7 @@ li.nav-item {
   font-size: 28px;
   text-decoration: none;
 }
+
 .email-link:hover {
   text-decoration: underline;
   text-transform: none;
@@ -167,6 +197,7 @@ li.nav-item {
   margin-top: 80px;
   padding-top: 170px;
 }
+
 .btn-branding {
   border: 1px solid var(--secondary-color);
   border-radius: 4px;
@@ -178,6 +209,7 @@ li.nav-item {
   font-weight: 500;
   gap: 20px;
 }
+
 .btn-branding:hover {
   background-color: var(--secondary-color);
   border: 1px solid var(--primary-color);
@@ -204,10 +236,12 @@ div.buttons-top {
   color: var(--secondary-color);
   font-weight: 300;
 }
+
 .buttons-top {
   padding-top: 40px;
   padding-bottom: 30px;
 }
+
 .leftside,
 .rightside {
   height: 60vh;
@@ -215,14 +249,17 @@ div.buttons-top {
   margin-left: 10px;
   padding-left: 40px;
 }
+
 .container {
   display: flex;
   justify-content: space-evenly;
 }
+
 .grid-container {
   display: flex;
   justify-content: space-between;
 }
+
 .featuring-section {
   background: var(--primary-color);
   color: var(--secondary-color);
@@ -238,6 +275,7 @@ div.buttons-top {
     transform: rotate3d(1, 1, 0, 360deg);
   }
 }
+
 .cube {
   position: relative;
   margin-top: 60px;
@@ -249,6 +287,7 @@ div.buttons-top {
   transform-style: preserve-3d;
   animation: turn 40s linear infinite;
 }
+
 .face {
   width: 80px;
   height: 80px;
@@ -352,14 +391,17 @@ div.buttons-top {
 .clock-button {
   padding-bottom: 10px;
 }
+
 section {
   max-width: cover;
   margin: auto;
   padding: 50px 0;
 }
+
 main {
   background: var(--secondary-color);
 }
+
 main h2 {
   font-weight: 700;
   font-size: 16px;
@@ -370,6 +412,7 @@ main h2 {
   color: var(--primary-color);
   opacity: 0.3;
 }
+
 main h3 {
   font-weight: 500;
   font-size: 40px;
@@ -377,6 +420,7 @@ main h3 {
   margin: 0;
   opacity: 0.8;
 }
+
 main p {
   font-style: normal;
   font-weight: 400;
@@ -385,12 +429,14 @@ main p {
   color: var(--primary-color);
   opacity: 0.8;
 }
+
 img {
-  max-width: 300px;
-  border-radius: 10%;
+  max-width: 270px;
+  align-items: center;
+  border-radius: 25%;
   padding-top: 10px;
-  padding-left: 20px;
 }
+
 .row {
   display: -ms-flexbox;
   display: flex;
@@ -399,6 +445,7 @@ img {
   margin-right: 40px;
   margin-left: 15px;
 }
+
 .main-row {
   background: white;
   display: flex;
@@ -423,13 +470,16 @@ img {
   background: var(--secondary-color);
   color: var(--primary-color);
 }
+
 .img-responsive {
-  margin-top: 30px;
-  margin-left: 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-left: 30px;
 }
 .aboutme-text {
   padding-right: 30px;
   padding-left: 40px;
+  padding-bottom: 10px;
 }
 .aboutme-mail {
   background: var(--primary-color);
@@ -439,25 +489,27 @@ img {
 }
 .skills-photo {
   align-items: center;
-  margin-left: 40px;
+  margin-left: 60px;
   padding-left: 40px;
-  margin-top: 10px;
+
   max-width: 200px;
 }
 .skills-text {
   align-items: center;
-  padding-left: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
 }
 .shecodes-logo {
   display: block;
   margin: 0 auto;
-  max-width: 130px;
-  padding-top: 20px;
+  max-width: 110px;
+  padding-top: 10px;
+  padding-left: 20px;
 }
 
 footer {
   padding-top: 100px;
-  background-image: linear-gradient(
+  background-image: radial-gradient(
       rgba(39, 32, 68, 0.4),
       rgba(39, 32, 68, 0.4)
     ),
@@ -483,12 +535,41 @@ footer .box {
 }
 footer ul {
   font-size: 20px;
+  text-decoration: none;
 }
-footer li {
+
+li {
   list-style: none;
   text-align: left;
   font-size: 15px;
+  text-decoration: none;
 }
+
+.shecodes-link:hover {
+  color: white;
+  font-weight: 500;
+}
+
+.html-link:hover {
+  color: white;
+  font-weight: 500;
+}
+
+.css-link:hover {
+  color: white;
+  font-weight: 500;
+}
+
+.react-link:hover {
+  color: white;
+  font-weight: 500;
+}
+
+.bootstrap-link:hover {
+  color: white;
+  font-weight: 500;
+}
+
 .aboutme-footer {
   font-size: 25px;
   font-weight: 500;
