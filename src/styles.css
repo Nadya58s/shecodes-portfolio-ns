@@ -764,7 +764,21 @@ a:hover {
   text-decoration: none;
 }
 
-@media (max-width: 972px) and (max-width: 1024px) {
+@media (max-width: 769px) and (max-width: 1024px) {
+
+  h1 {
+    font-size: 35px;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  h3 {
+    display: none;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
   footer .footer {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);
@@ -778,12 +792,18 @@ a:hover {
     display: none;
   }
 
-  h1 {
-    font-size: 50px;
+  
+
+  .buttons-top {
+    padding-top: 0px;
   }
 
   .img-responsive {
     display: none;
+  }
+
+  .project-btn {
+    margin-left: 0;
   }
 
   .skills-photo {
@@ -805,18 +825,6 @@ a:hover {
   }
 }
 
-/**
-@media (min-width: 769px) and (max-width: 1024px) {
-  footer .footer {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, auto);
-    text-align: left;
-  }
-  footer .box {
-    margin-bottom: 20px;
-  }
-}
-**/
 @media (min-width: 1025px) {
   footer .footer {
     grid-template-columns: repeat(3, 1fr);
