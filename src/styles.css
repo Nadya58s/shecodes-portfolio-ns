@@ -158,14 +158,14 @@ li.nav-item {
 
 /*Body*/
 .container-hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
     url("../images/night.jpg");
   background-repeat: no-repeat;
   color: var(--secondary-color);
   text-align: center;
   background-size: cover;
   margin-top: 80px;
-  padding-top: 100px;
+  padding-top: 170px;
 }
 .btn-branding {
   border: 1px solid var(--secondary-color);
@@ -189,7 +189,7 @@ li.nav-item {
 }
 
 div.buttons-top {
-  padding-bottom: 200px;
+  padding-bottom: 130px;
 }
 
 .project-btn {
@@ -242,12 +242,12 @@ div.buttons-top {
   position: relative;
   margin-top: 60px;
   margin-left: 90px;
-  padding-top: 130px;
+  padding-top: 100px;
   padding-bottom: 10px;
   width: 200px;
   height: 200px;
   transform-style: preserve-3d;
-  animation: turn 30s linear infinite;
+  animation: turn 40s linear infinite;
 }
 .face {
   width: 80px;
@@ -312,7 +312,7 @@ div.buttons-top {
   border-radius: 1%;
 }
 .card-midd {
-  padding-bottom: 10px;
+  padding-top: 10px;
 }
 .projects-display {
   text-align: center;
@@ -326,7 +326,7 @@ div.buttons-top {
   font-size: 15px;
 }
 .dictionary-paragraph {
-  padding-bottom: 20px;
+  padding-bottom: 25px;
   opacity: 80%;
 }
 .dictionary-button {
@@ -456,35 +456,30 @@ img {
 }
 
 footer {
-  padding-top: 60px;
-  padding-bottom: 80px;
+  padding-top: 100px;
   background-image: linear-gradient(
-      rgba(39, 32, 68, 0.9),
-      rgba(39, 32, 68, 0.9)
+      rgba(39, 32, 68, 0.4),
+      rgba(39, 32, 68, 0.4)
     ),
     url("../images/software.jpg");
   background-size: cover;
 }
+
 footer .footer {
   display: flex;
   flex-grow: wrap;
-
   gap: 10px;
 
-  .box {
-    flex: 200px;
-  }
-  /**
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 50 50px 50px 50px;
   grid-gap: 20px;
-  **/
 }
+
 footer .box {
   color: var(--secondary-color);
   font-size: 30px;
   text-align: center;
-  background: rgba(31, 19, 51, 0.4);
+  background: rgba(162, 147, 186, 0.4);
 }
 footer ul {
   font-size: 20px;
@@ -561,7 +556,7 @@ a:hover {
   padding-bottom: 30px;
   gap: 10px;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
     url("../images/software.jpg");
 }
 
