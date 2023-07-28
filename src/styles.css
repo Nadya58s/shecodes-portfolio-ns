@@ -676,8 +676,12 @@ a:hover {
   font-weight: 300;
 }
 
+.fa-envelope:hover {
+  background-color: var(--primary-color);
+}
 .contact-footer:hover {
-  color: white;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 @media (min-width: 1025px) {
