@@ -85,7 +85,7 @@ a {
 }
 
 .nav-awesom {
-  margin: 0 30px;
+  margin: auto;
 }
 
 .icon {
@@ -764,17 +764,48 @@ a:hover {
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 972px) and (max-width: 1024px) {
   footer .footer {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, auto);
-    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    text-align: left;
   }
   footer .box {
     margin-bottom: 20px;
   }
+
+  .cube {
+    display: none;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .img-responsive {
+    display: none;
+  }
+
+  .skills-photo {
+    display: none;
+  }
+
+  .shecodes-logo {
+    display: none;
+  }
+  .grid-2-columns {
+    grid-template-columns: 1fr;
+    padding-bottom: 30px;
+  }
+
+  section#about-me.grid.grid-2-columns.aboutme-section {
+    padding-top: 0;
+    padding-bottom: 30px;
+    margin-top: 0;
+  }
 }
 
+/**
 @media (min-width: 769px) and (max-width: 1024px) {
   footer .footer {
     grid-template-columns: repeat(2, 1fr);
@@ -785,7 +816,7 @@ a:hover {
     margin-bottom: 20px;
   }
 }
-
+**/
 @media (min-width: 1025px) {
   footer .footer {
     grid-template-columns: repeat(3, 1fr);
