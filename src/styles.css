@@ -175,6 +175,11 @@ a {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
 }
+
+.buttons-top {
+  padding-bottom: 30px;
+}
+
 .project-btn {
   background: var(--secondary-color);
   color: var(--primary-color);
