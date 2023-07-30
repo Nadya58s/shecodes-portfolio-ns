@@ -708,8 +708,12 @@ a:hover {
     padding: 60px 01px;
   }
 
+  h3 {
+    display: none;
+  }
+
   h4 {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .buttons-top {
@@ -717,7 +721,29 @@ a:hover {
   }
 
   .cube {
-    display: none;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 80px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    width: 30px;
+    height: 30px;
+    transform-style: preserve-3d;
+    animation: turn 40s linear infinite;
+  }
+
+  .face {
+    width: 80px;
+    height: 80px;
+    background: var(--primary-color);
+    border: 2px solid var(--secondary-color);
+    position: absolute;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
   }
 
   .featured-pro {
