@@ -734,10 +734,10 @@ a:hover {
     font-size: 18px;
   }
 
-  .buttons-top {
-    display: inline-block;
+  a.btn.btn-branding.project-btn {
+    padding-right: 30px;
+    margin-right: 20px;
   }
-
   .cube {
     position: absolute;
     margin-top: 30px;
