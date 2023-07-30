@@ -98,7 +98,7 @@ li.nav-item {
 }
 
 .icon {
-  padding-left: 10px;
+  padding-left: 30px;
   box-shadow: var(--secondary-color);
   display: inline;
 }
@@ -208,7 +208,7 @@ li.nav-item {
   color: var(--secondary-color);
   padding: 15px 30px;
   margin-top: 40px;
-  font-weight: 500;
+  font-weight: 400;
   gap: 20px;
 }
 
@@ -575,18 +575,35 @@ li {
 .aboutme-footer {
   font-size: 25px;
   font-weight: 500;
+  text-align: center;
 }
 .about-parag {
   font-size: 15px;
   font-weight: 200;
   text-align: left;
-  padding: 0 18px 0 18px;
+  padding: 0 19px 0 18px;
+  padding-top: 20px;
   line-height: 30px;
 }
-.services-list {
-  font-weight: 200;
-  line-height: 40px;
+
+.work2 {
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
 }
+.services-list {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 40px;
+  align-items: center;
+}
+
+.work-3 {
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+
 .resources-ul {
   line-height: 40px;
   font-size: 15px;
@@ -673,15 +690,16 @@ a:hover {
 }
 
 .contact-footer {
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .fa-envelope:hover {
   background-color: var(--primary-color);
 }
 .contact-footer:hover {
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  padding-left: 40px;
 }
 
 @media (min-width: 1025px) {
@@ -800,5 +818,52 @@ a:hover {
   }
   .img-responsive {
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 1198px) {
+  .clock-card {
+  }
+
+  .dictionary-title {
+    font-size: 23px;
+  }
+
+  .weather-title {
+    font-size: 23px;
+  }
+
+  .cube {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 80px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    width: 30px;
+    height: 30px;
+    transform-style: preserve-3d;
+    animation: turn 40s linear infinite;
+  }
+
+  .face {
+    width: 80px;
+    height: 80px;
+    background: var(--primary-color);
+    border: 2px solid var(--secondary-color);
+    position: absolute;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+  }
+
+  .row {
+    gap: 10px;
+  }
+
+  .about-parag {
+    padding-left: 20px;
   }
 }
