@@ -718,6 +718,10 @@ a:hover {
   footer .box {
     margin-bottom: 20px;
   }
+  .card-body {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+  }
 }
 
 @media (max-width: 900px) {
@@ -773,6 +777,9 @@ a:hover {
     grid-gap: 30px;
   }
 
+  .clock-title {
+    font-size: 20px;
+  }
   .img-responsive {
     display: none;
   }
@@ -831,6 +838,9 @@ a:hover {
     font-size: 23px;
   }
 
+  .clock-title {
+    font-size: 23px;
+  }
   .cube {
     position: absolute;
     margin-top: 30px;
